@@ -1,0 +1,1 @@
+This is a subfolder about some projects on OOP in Java!
