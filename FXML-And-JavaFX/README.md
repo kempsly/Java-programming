@@ -144,6 +144,11 @@ public class MainController {
     }
 }
 ```
+## **Error Troubleshooting**
+If you encounter the error "JavaFX runtime components are missing", please refer to this article for detailed troubleshooting steps:
+Solving the "JavaFX Runtime Components Are Missing" Error in IntelliJ : 
+- [JavaFX Runtime Components Are Missing](https://medium.com/@cem.kaya/solving-the-javafx-runtime-components-are-missing-error-in-intellij-6feb9607d775)
+
 
 ---
 
