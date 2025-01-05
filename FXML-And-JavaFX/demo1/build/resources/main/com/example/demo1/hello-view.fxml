@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane  xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo1.HelloController"
+             prefWidth="500" prefHeight="400">
+    <top>
+        <HBox spacing="10" alignment="CENTER" styleClass="header">
+            <Label text="Complex UI Styling" styleClass="header-label" />
+        </HBox>
+    </top>
+
+    <center>
+        <GridPane hgap="10" vgap="10" alignment="CENTER"
+        styleClass="form-grid">
+            <Label text="First Name: "/>
+            <TextField GridPane.columnIndex="1" />
+            <Label text="Last Name: " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Email:" GridPane.rowIndex="2"  />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <HBox GridPane.rowIndex="3"
+                  GridPane.columnIndex="1"
+                  spacing="10" alignment="CENTER_RIGHT">
+                <Button text="Submit" styleClass="submit-button" />
+                <Button text="Cancel" styleClass="cancel-button" />
+            </HBox>
+        </GridPane>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" alignment="CENTER" styleClass="footer">
+            <Label text="Copy Rights 2025 kps" styleClass="footer-label"/>
+
+        </HBox>
+
+    </bottom>
+
+    <!--<Label fx:id="welcomeText" text="User Login" />-->
+    <!-- display username in textfield -->
+    <!--<HBox spacing="10.0">
+        <Label text="Username: " />
+        <TextField /> -->
+    <!--</HBox>
+    <HBox spacing="10.0">
+        <Label text="Password: " />
+        <PasswordField />
+    </HBox>
+    <GridPane hgap="10" vgap="10" style="-fx-border-color: darkgray;
+    -fx-border-width: 2px;"
+    alignment="CENTER">
+        <Label text="row 0 - col 0"
+               GridPane.rowIndex="0" GridPane.columnIndex="0"
+               style="-fx-font-size: 20px;"/>
+        <Label text="row 0 - col 1"
+               GridPane.rowIndex="0" GridPane.columnIndex="1" />
+        <Label text="row 1 - col 0"
+               GridPane.rowIndex="1" GridPane.columnIndex="0" />
+        <Label text="row 1 - col 1"
+               GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    </GridPane>
+    <Button text="Hello!" onAction="#onHelloButtonClick"
+    onMouseEntered="#onHelloButtonEntered"/> -->
+</BorderPane>
